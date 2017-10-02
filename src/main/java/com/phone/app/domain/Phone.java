@@ -45,9 +45,6 @@ public class Phone {
 
 		private URL image;
 
-		PhoneBuilder() {
-		}
-
 		public Phone.PhoneBuilder id(Integer id) {
 			this.id = id;
 			return this;
